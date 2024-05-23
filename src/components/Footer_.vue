@@ -3,9 +3,11 @@
 </script>
 
 <template>
-    <div class="dio m-0 p-0 position-relative z-n3">
-        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute z-n-1">
-        <div class="m-auto d-flex containerListe m-auto w-75 h-100 align-items-center">
+    <div class="Footercontainer m-0 p-0 position-relative z-n3">
+        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute z-n-3">
+        <!-- Da chiedere, perché esce fuori? -->
+        <div class="m-auto d-flex containerListe m-auto w-75 h-100 py-5">
+            <!-- Da chiedere, come posso mettere che la height si automatica? -->
             <div class="d-flex flex-column">
                 <h3>DC COMICS</h3>
                 <ul>
@@ -53,12 +55,12 @@
 </template>
 
 <style scoped>
-.dio {
+.Footercontainer {
     /* Da chiedere, perché anche col 100% non prende tutto lo schermo */
     width: 100% !important;
     background-image: url("../assets/img/footer-bg.jpg");
     background-size: 100% 100%;
-    height: 65vh;
+    /* height: 65vh; */
 }
 
 .flex-column *{
