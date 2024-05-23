@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    <div class="container m-0 p-0 position-relative">
-        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute">
-        <div class="m-auto d-flex containerListe m-auto h-100 align-items-center">
+    <div class="dio m-0 p-0 position-relative z-n3">
+        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute z-n-1">
+        <div class="m-auto d-flex containerListe m-auto w-75 h-100 align-items-center">
             <div class="d-flex flex-column">
                 <h3>DC COMICS</h3>
                 <ul>
@@ -53,9 +53,9 @@
 </template>
 
 <style scoped>
-.container {
+.dio {
     /* Da chiedere, perché anche col 100% non prende tutto lo schermo */
-    width: 100%;
+    width: 100% !important;
     background-image: url("../assets/img/footer-bg.jpg");
     background-size: 100% 100%;
     height: 65vh;
@@ -77,6 +77,8 @@ li{
     color: rgb(131, 131, 131) !important;
 }
 img{
-    right: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 </style>
