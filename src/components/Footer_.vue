@@ -3,8 +3,9 @@
 </script>
 
 <template>
-    <div class="container m-0 p-0">
-        <div class="m-auto d-flex containerListe">
+    <div class="container m-0 p-0 position-relative">
+        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute">
+        <div class="m-auto d-flex containerListe m-auto h-100 align-items-center">
             <div class="d-flex flex-column">
                 <h3>DC COMICS</h3>
                 <ul>
@@ -74,5 +75,8 @@ ul{
 }
 li{
     color: rgb(131, 131, 131) !important;
+}
+img{
+    right: 0;
 }
 </style>
