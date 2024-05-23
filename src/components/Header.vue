@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="w-50 m-auto">
+  <div class="w-75 m-auto">
     <div id="headerHeight" class="d-flex justify-content-between w-100 py-2">
       <img id="trademark" src="../assets/img/dc-logo.png" alt="">
       <div id="headerSection" class="d-flex align-items-center">

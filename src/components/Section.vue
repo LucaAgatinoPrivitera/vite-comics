@@ -4,7 +4,7 @@
 
 <template>
     <div class="bg-primary" id="sectionHeight">
-        <div class="w-50 m-auto py-4">
+        <div class="w-75 m-auto py-4">
             <div class="d-flex">
                 <div class="d-flex align-items-center justify-content-center mx-5">
                     <img src="../assets/img/buy-comics-digital-comics.png" alt="" class="img-fluid w-25">
