@@ -3,14 +3,34 @@
 </script>
 
 <template>
-    <div class="bg-primary">
+    <div class="bg-primary" id="sectionHeight">
         <div class="w-50 m-auto py-4">
-            <div>
-                <div id="sectionHeight">
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="" class="img-fluid">
+            <div class="d-flex">
+                <div class="d-flex align-items-center justify-content-center mx-5">
+                    <img src="../assets/img/buy-comics-digital-comics.png" alt="" class="img-fluid w-25">
                     <span class="text-light">DIGITAL COMICS</span>
                 </div>
-                
+
+                <div class="d-flex align-items-center justify-content-center mx-5">
+                    <img src="../assets/img/buy-comics-merchandise.png" alt="" class="img-fluid w-25">
+                    <span class="text-light">DC MERCHANDISE</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center mx-5">
+                    <img src="../assets/img/buy-comics-shop-locator.png" alt="" class="img-fluid w-25">
+                    <span class="text-light">SUBSCRIPTION</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center mx-5">
+                    <img src="../assets/img/buy-comics-subscriptions.png" alt="" class="img-fluid w-25">
+                    <span class="text-light">COMIC SHOP LOCATOR</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center mx-5">
+                    <img src="../assets/img/buy-dc-power-visa.svg" alt="" class="img-fluid w-25">
+                    <span class="text-light">DC POWER VISA</span>
+                </div>
+                <!-- Da chiedere perché mi da problemi che non rispetta il container anche con img fluid -->
             </div>
         </div>
     </div>
@@ -18,7 +38,12 @@
 </template>
 
 <style scoped>
-#sectionHeight{
-    height: 5rem;
+
+img{
+    margin-right: 0.3rem;
+    width: 50px !important;
+}
+span{
+    margin-left: 0.3rem;
 }
 </style>
