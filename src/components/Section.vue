@@ -4,10 +4,10 @@
 
 <template>
     <div class="bg-primary">
-        <div class="w-50 m-auto py-4" id="sectionHeight">
+        <div class="w-50 m-auto py-4">
             <div>
-                <div>
-                    <img class="prova" src="../assets/img/buy-comics-digital-comics.png" alt="">
+                <div id="sectionHeight">
+                    <img src="../assets/img/buy-comics-digital-comics.png" alt="" class="img-fluid">
                     <span class="text-light">DIGITAL COMICS</span>
                 </div>
                 
@@ -19,9 +19,6 @@
 
 <style scoped>
 #sectionHeight{
-    height: 10rem;
-}
-.prova{
-    height: 100%;
+    height: 5rem;
 }
 </style>
