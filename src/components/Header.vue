@@ -3,10 +3,10 @@
 </script>
 
 <template>
-  <div class="w-75">
-    <div class="d-flex">
-      <img src="../assets/img/dc-logo.png" alt="" srcset="">
-      <div id="headerSection" class="d-flex">
+  <div class="w-50 m-auto">
+    <div id="headerHeight" class="d-flex justify-content-between w-100 pt-3">
+      <img id="trademark" src="../assets/img/dc-logo.png" alt="">
+      <div id="headerSection" class="d-flex align-items-center">
         <a class="text-dark text-decoration-none" href="#">CHARACTERS</a>
         <a class="text-dark text-decoration-none" href="#">COMICS</a>
         <a class="text-dark text-decoration-none" href="#">MOVIES</a>
@@ -24,7 +24,11 @@
 </template>
 
 <style scoped>
+#headerHeight{
+  height: 5rem;
+}
 #headerSection *{
   margin: 0 0.5rem;
+  display: inline-block;
 }
 </style>
