@@ -3,6 +3,7 @@ import Header from './components/Header.vue'
 import Body from './components/Body.vue'
 import Section from './components/Section.vue'
 import Footer_ from './components/Footer_.vue'
+import Footer_SignUp from './components/Footer_SignUp.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Footer_ from './components/Footer_.vue'
   <Body></Body>
   <Section></Section>
   <Footer_></Footer_>
+  <Footer_SignUp></Footer_SignUp>
 </template>
 
 <style scoped>
