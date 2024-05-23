@@ -53,6 +53,7 @@
 
 <style scoped>
 .container {
+    /* Da chiedere, perché anche col 100% non prende tutto lo schermo */
     width: 100%;
     background-image: url("../assets/img/footer-bg.jpg");
     background-size: 100% 100%;
