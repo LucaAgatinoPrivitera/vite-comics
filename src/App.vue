@@ -1,9 +1,13 @@
 <script setup>
 import Header from './components/Header.vue'
+import Body from './components/Body.vue'
+import Section from './components/Section.vue'
 </script>
 
 <template>
   <Header msg="Vite + Vue" />
+  <Body></Body>
+  <Section></Section>
 </template>
 
 <style scoped>
