@@ -2,12 +2,14 @@
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
 import Section from './components/Section.vue'
+import Footer_ from './components/Footer_.vue'
 </script>
 
 <template>
   <Header msg="Vite + Vue" />
   <Body></Body>
   <Section></Section>
+  <Footer_></Footer_>
 </template>
 
 <style scoped>
