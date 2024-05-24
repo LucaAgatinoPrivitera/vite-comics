@@ -6,7 +6,7 @@
   <div class="w-75 m-auto">
     <div id="headerHeight" class="d-flex justify-content-between w-100 py-2">
       <img id="trademark" src="../assets/img/dc-logo.png" alt="">
-      <div id="headerSection" class="d-flex align-items-center">
+      <div id="headerSection" class="d-flex align-items-center gap-4">
         <a class="text-dark text-decoration-none" href="#">CHARACTERS</a>
         <a class="text-dark text-decoration-none" href="#">COMICS</a>
         <a class="text-dark text-decoration-none" href="#">MOVIES</a>
