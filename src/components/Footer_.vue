@@ -7,9 +7,9 @@ import Footer_SignUp from './Footer_SignUp.vue'
     <div class="Footercontainer m-0 p-0 position-relative z-n1">
         <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute">
         <!-- Da chiedere, perché esce fuori? -->
-        <div class="m-auto d-flex containerListe m-auto w-75 h-100 py-5">
+        <div class="m-auto d-flex containerListe m-auto w-75 h-100 py-5 gap-3">
             <!-- Da chiedere, come posso mettere che la height si automatica? -->
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column mx-0">
                 <h3>DC COMICS</h3>
                 <ul>
                     <li>Characters</li>
@@ -28,7 +28,7 @@ import Footer_SignUp from './Footer_SignUp.vue'
                 </ul>
             </div>
 
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column mx-0">
                 <h3>DC</h3>
                 <ul>
                     <li>Terms of Use</li>
@@ -39,7 +39,7 @@ import Footer_SignUp from './Footer_SignUp.vue'
                 </ul>
             </div>
 
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column mx-0">
                 <h3>Sites</h3>
                 <ul>
                     <li>DC</li>
