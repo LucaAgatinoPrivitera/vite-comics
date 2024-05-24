@@ -84,25 +84,40 @@ export default {
 
 <template>
     <div class="bg-dark position-relative">
-        <div id="tagSeries" class="bg-primary">
-            <h2 class="p-3 text-light d-inline-block m-0">CURRENT SERIES</h2>
+        <div class="container m-auto">
+            <div id="tagSeries" class="bg-primary d-inline-block">
+            <h2 class="p-3 text-light m-0">CURRENT SERIES</h2>
         </div>
-        <div class="d-flex flex-wrap gap-4">
-            <div class="card" v-for="fumetto in fumetti">
+        <div class="gap-4 m-auto row justify-content-center">
+            <div class="containerCard m-0 p-0 border-0 col col-md-2" v-for="fumetto in fumetti">
+                <!-- Da chiedere perché col non uccupa lo spazio giusto -->
                 <img :src="fumetto.thumb" alt="" class="object-fit-cover card-img-top">
-                <h5>{{ fumetto.series }}</h5>
+                <h5 class="text-light">{{ fumetto.series }}</h5>
             </div>
         </div>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center py-3">
+            <div class="bg-primary d-inline-block m-auto position-relative">
+            <h4 class="text-light py-3 px-5 m-0 d-inline-block">LOAD MORE</h4>
+        </div>
+        </div>
+
+        
+
     </div>
     <Section></Section>
 </template>
 
 <style scoped>
 #tagSeries {
-    top: 0;
+    transform: translateY(-50%);
 }
-.card img{
-    width: 200px;
-    height: 200px;
+.containerCard img{
+    height: 300px;
+    object-position: top;
+}
+.loadMoreInline{
+    display: inline-block;
 }
 </style>
