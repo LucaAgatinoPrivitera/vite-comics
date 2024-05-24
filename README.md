@@ -1,7 +1,12 @@
-# Vue 3 + Vite
+:pacco: CONSEGNA
+Continuate a lavorare nella stessa repo di ieri. Oggi però andiamo a popolare il main content.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+:roccia: MILESTONE 1
+Create un componente che in base ad un array (in allegato) vada a generare delle card in pagina.
+Sarà il macro componente che contiene tutti i fumetti, qualcosa come ComicsList.vue.
+Dovrete copiare l'array allegato nel vostro data e iterare con un v-for.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+:roccia: MILESTONE 2
+Ora provate a creare un componente figlio che rappresenti la singola card, del tipo SingleComic.vue.
+Fate in modo che accetti un dato in ingresso (usando le props).
+Dal componente padre (es. ComicsList) modificate il ciclo in modo che richiami questo nuovo componente e gli passi il fumetto in questione tramite props.
