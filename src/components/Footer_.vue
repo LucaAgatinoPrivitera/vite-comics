@@ -4,8 +4,8 @@ import Footer_SignUp from './Footer_SignUp.vue'
 </script>
 
 <template>
-    <div class="Footercontainer m-0 p-0 position-relative z-n3">
-        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute z-n-3">
+    <div class="Footercontainer m-0 p-0 position-relative z-n1">
+        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute">
         <!-- Da chiedere, perché esce fuori? -->
         <div class="m-auto d-flex containerListe m-auto w-75 h-100 py-5">
             <!-- Da chiedere, come posso mettere che la height si automatica? -->
@@ -61,6 +61,8 @@ import Footer_SignUp from './Footer_SignUp.vue'
     width: 100% !important;
     background-image: url("../assets/img/footer-bg.jpg");
     background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
     /* height: 65vh; */
 }
 
