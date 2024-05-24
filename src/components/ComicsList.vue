@@ -76,7 +76,9 @@ export default {
                     series: "Catwoman",
                     type: "graphic novel",
                 },
-            ]
+            ],
+            name: "ProductCard",
+            props: ["prodotto"]
         }
     }
 }
@@ -85,25 +87,30 @@ export default {
 <template>
     <div class="bg-dark position-relative">
         <div class="container m-auto">
+
+            <!-- Blocco current series -->
             <div id="tagSeries" class="bg-primary d-inline-block">
-            <h2 class="p-3 text-light m-0">CURRENT SERIES</h2>
-        </div>
-        <div class="gap-4 m-auto row justify-content-center">
-            <div class="containerCard m-0 p-0 border-0 col col-md-2" v-for="fumetto in fumetti">
-                <!-- Da chiedere perché col non uccupa lo spazio giusto -->
-                <img :src="fumetto.thumb" alt="" class="object-fit-cover card-img-top">
-                <h5 class="text-light">{{ fumetto.series }}</h5>
+                <h2 class="p-3 text-light m-0">CURRENT SERIES</h2>
+            </div>
+
+            <!-- Container che al suo interno ha le card -->
+            <div class="gap-4 m-auto row justify-content-center">
+                <div class="containerCard m-0 p-0 border-0 col col-md-2" v-for="fumetto in fumetti">
+                    <!-- Da chiedere perché col non uccupa lo spazio giusto -->
+                    <img :src="fumetto.thumb" alt="" class="object-fit-cover card-img-top">
+                    <h5 class="text-light">{{ fumetto.series }}</h5>
+                </div>
             </div>
         </div>
-        </div>
 
+        <!-- Blocco Load more -->
         <div class="w-100 d-flex justify-content-center py-3">
             <div class="bg-primary d-inline-block m-auto position-relative">
-            <h4 class="text-light py-3 px-5 m-0 d-inline-block">LOAD MORE</h4>
-        </div>
+                <a href=""><h4 class="text-light py-3 px-5 m-0 d-inline-block">LOAD MORE</h4></a>
+            </div>
         </div>
 
-        
+        <!-- Card ma utlizzando il prop -->
 
     </div>
     <Section></Section>
@@ -113,11 +120,13 @@ export default {
 #tagSeries {
     transform: translateY(-50%);
 }
-.containerCard img{
+
+.containerCard img {
     height: 300px;
     object-position: top;
 }
-.loadMoreInline{
+
+.loadMoreInline {
     display: inline-block;
 }
 </style>
