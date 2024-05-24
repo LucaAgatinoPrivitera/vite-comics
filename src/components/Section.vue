@@ -17,12 +17,12 @@
                 </div>
 
                 <div class="d-flex align-items-center justify-content-center mx-5">
-                    <img src="../assets/img/buy-comics-shop-locator.png" alt="" class="img-fluid ">
+                    <img src="../assets/img/buy-comics-subscriptions.png" alt="" class="img-fluid ">
                     <span class="text-light">SUBSCRIPTION</span>
                 </div>
 
                 <div class="d-flex align-items-center justify-content-center mx-5">
-                    <img src="../assets/img/buy-comics-subscriptions.png" alt="" class="img-fluid ">
+                    <img src="../assets/img/buy-comics-shop-locator.png" alt="" class="img-fluid ">
                     <span class="text-light">COMIC SHOP LOCATOR</span>
                 </div>
 
