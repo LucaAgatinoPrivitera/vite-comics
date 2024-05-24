@@ -1,4 +1,5 @@
 <script setup>
+import Footer_SignUp from './Footer_SignUp.vue'
 
 </script>
 
@@ -51,7 +52,7 @@
 
         </div>
     </div>
-
+<Footer_SignUp></Footer_SignUp>
 </template>
 
 <style scoped>

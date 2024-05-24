@@ -1,5 +1,5 @@
 <script setup>
-
+import Section from './Section.vue'
 </script>
 
 <template>
@@ -10,5 +10,5 @@
             </div>
         </div>
     </div>
-
+<Section></Section>
 </template>

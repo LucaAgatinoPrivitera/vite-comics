@@ -1,9 +1,7 @@
 <script setup>
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
-import Section from './components/Section.vue'
 import Footer_ from './components/Footer_.vue'
-import Footer_SignUp from './components/Footer_SignUp.vue'
 </script>
 
 <template>
