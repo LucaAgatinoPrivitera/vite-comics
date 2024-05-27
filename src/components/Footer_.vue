@@ -5,7 +5,7 @@ import Footer_SignUp from './Footer_SignUp.vue'
 
 <template>
     <div class="Footercontainer m-0 p-0 position-relative z-n1">
-        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute">
+        <img src="../assets/img/dc-logo-bg.png" alt="" class="position-absolute opacity-75">
         <!-- Da chiedere, perché esce fuori? -->
         <div class="m-auto d-flex containerListe m-auto w-75 h-100 py-5 gap-3">
             <!-- Da chiedere, come posso mettere che la height si automatica? -->
