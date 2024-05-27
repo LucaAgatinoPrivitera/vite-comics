@@ -94,8 +94,8 @@ export default {
             </div>
 
             <!-- Container che al suo interno ha le card -->
-            <div class="gap-4 m-auto row justify-content-center">
-                <div class="containerCard m-0 p-0 border-0 col col-md-2" v-for="fumetto in fumetti">
+            <div class="row justify-content-center m-auto">
+                <div class="containerCard m-0 py-3 px-2 border-0 col col-md-2" v-for="fumetto in fumetti">
                     <!-- Da chiedere perché col non uccupa lo spazio giusto -->
                     <img :src="fumetto.thumb" alt="" class="object-fit-cover card-img-top">
                     <h5 class="text-light">{{ fumetto.series }}</h5>
